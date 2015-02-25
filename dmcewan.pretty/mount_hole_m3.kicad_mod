@@ -1,0 +1,12 @@
+(module mount_hole_m3 (layer F.Cu) (tedit 54ECE0A5)
+  (descr "Mounting hole for M3 bolt.")
+  (tags "mount, hole, m3, 3mm,")
+  (fp_text reference M3 (at 0 -3.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value VAL** (at 0 3.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center 0 0) (end 2.5 0) (layer Cmts.User) (width 0.3))
+  (pad ~ thru_hole circle (at 0 0) (size 3 3) (drill 3) (layers))
+)
