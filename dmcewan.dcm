@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX7313
+D MAX7313 16-port IO expander with LED intensity control, interrupt and hot-insertion protection, TQFN-24
+K LED driver IO expander
+F http://www.maximintegrated.com/en/products/interface/controllers-expanders/MAX7313.html
+$ENDCMP
+#
+#End Doc Library
